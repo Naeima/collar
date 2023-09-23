@@ -1,7 +1,7 @@
 prefixes:
- foo: "http://www.ontology/ns/foo/1.1#"
- sosa: "http://www.w3.org/ns/sosa/"
- pos: "http://www.w3.org/2003/01/geo/wgs84_pos#"
+ foo: "http://w3id.org/def/foo#"
+ sosa: "http://w3.org/ns/sosa/"
+ pos: "http://w3.org/2003/01/geo/wgs84_pos#"
 
 mappings:
   collar:
