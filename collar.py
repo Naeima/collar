@@ -15,9 +15,9 @@ graph = Graph()
 graph.parse(source=ontology_file, format="ttl")
 
 # Set the namespace for your ontology
-namespace = Namespace("http://www.ontology/ns/foo/1.1#")
-namespace1 = Namespace("http://www.w3.org/ns/sosa/")
-namespace2 = Namespace("http://www.w3.org/2003/01/geo/wgs84_pos#")
+namespace = Namespace("http://w3id.org/def/foo#")
+namespace1 = Namespace("http://w3.org/ns/sosa/")
+namespace2 = Namespace("http://w3.org/2003/01/geo/wgs84_pos#")
 
 # RML mapping code
 # Iterate over the CSV file and map the data to RDF triples
