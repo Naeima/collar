@@ -1689,8 +1689,8 @@ foo:C:N rdf:type owl:NamedIndividual ,
                                              rdfs:comment "A female Asian elephant called Puteri here, the GPS collar (sensor) is named after her." .
 
 
-###  https://w3id.org/def/foo#elephant#Putut
-<https://w3id.org/def/foo#elephant#Putut> rdf:type owl:NamedIndividual ,
+###  https://w3id.org/def/foo#Putut
+<https://w3id.org/def/foo#Putut> rdf:type owl:NamedIndividual ,
                                                       sosa:Sensor ;        
                                                       sosa:hasFeatureOfInterest       foo:ElephasMaximus;
                                                       sosa:observedProperty           foo:ID ,
@@ -1776,7 +1776,7 @@ foo:C:N rdf:type owl:NamedIndividual ,
 
 
 ###  https://w3id.org/def/foo#Tunglap
-<https://w3id.org/def/foo#elephant#Tunglap> rdf:type owl:NamedIndividual ,
+<https://w3id.org/def/foo#Tunglap> rdf:type owl:NamedIndividual ,
                                                        sosa:Sensor ;
 
                                                     sosa:hasFeatureOfInterest       foo:ElephasMaximus;
