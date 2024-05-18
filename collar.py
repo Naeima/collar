@@ -51,8 +51,9 @@ with open(csv_file, 'r') as file:
         subject_uri = URIRef(namespace + column1)
 
         # Add triples to the graph
-        graph.add((subject_uri, RDF.type, namespace1.Observation))  # Replace with the appropriate class from your ontology
-        graph.add((subject_uri, namespace.LocalDate, Literal(column2)))  # Replace with the appropriate predicate from your ontology
+        graph.add((subject_uri, RDF.type, namespace1.ObservableProperty))  # Unique ID is an Observation
+        graph.add((subject_uri, namespace1.isObservedBy, namespace.Jasmin)) # The observation is observed by sensor Jasmin
+        graph.add((subject_uri, namespace.LocalDate, Literal(column2)))
         graph.add((subject_uri, namespace.LocalTime, Literal(column3)))
         graph.add((subject_uri, namespace.GMTDate, Literal(column4)))
         graph.add((subject_uri, namespace.GMTTime, Literal(column5)))
