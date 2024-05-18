@@ -1433,7 +1433,7 @@ foo:C:N rdf:type owl:NamedIndividual ,
 ###  https://w3id.org/def/foo#ABAW
 <https://w3id.org/def/foo#ABAW> rdf:type owl:NamedIndividual ,
                                       sosa:Sensor;
-                                      sosa:hasFeatureOfInterest   foo:ElephasMaximus,
+                                      sosa:hasFeatureOfInterest   foo:ElephasMaximus;
                                       sosa:observedProperty       foo:ID ,
                                                                   foo:Cov ,
                                                                   foo:ExtTemp ,
@@ -1447,7 +1447,7 @@ foo:C:N rdf:type owl:NamedIndividual ,
 ###  https://w3id.org/def/foo#Aqeela
 <https://w3id.org/def/foo#Aqeela> rdf:type owl:NamedIndividual ,
                                    sosa:Sensor;
-                                   sosa:hasFeatureOfInterest       foo:ElephasMaximus,
+                                   sosa:hasFeatureOfInterest       foo:ElephasMaximus;
                                    sosa:observedProperty           foo:ID ,  
                                                                    foo:LocalDate ,
                                                                    foo:LocalTime ,
@@ -1463,10 +1463,10 @@ foo:C:N rdf:type owl:NamedIndividual ,
 
 
 ###  https://w3id.org/def/foo#Bikang1
-Bikang1
+
 <https://w3id.org/def/foo#Bikang1> rdf:type       owl:NamedIndividual ,
                                                   sosa:Sensor ;
-                                                  sosa:hasFeatureOfInterest         foo:ElephasMaximus,
+                                                  sosa:hasFeatureOfInterest         foo:ElephasMaximus;
                                                   sosa:observedProperty             foo:ID ,  
                                                                                     foo:Count ,
                                                                                     foo:Cov ,
@@ -1483,7 +1483,7 @@ Bikang1
 ###  https://w3id.org/def/foo#Bikang2
 <https://w3id.org/def/foo#Bikang2> rdf:type    owl:NamedIndividual ,
                                                         sosa:Sensor ;
-                                                        sosa:hasFeatureOfInterest         foo:ElephasMaximus,
+                                                        sosa:hasFeatureOfInterest         foo:ElephasMaximus;
                                                         sosa:observedProperty             foo:ID ,  
                                                                                          foo:Count ,
                                                                                           foo:Cov ,
@@ -1500,7 +1500,7 @@ Bikang1
 ###  https://w3id.org/def/foo#Dara
 <https://w3id.org/def/foo#Dara> rdf:type owl:NamedIndividual ,
                                                         sosa:Sensor ;
-                                                        sosa:hasFeatureOfInterest          foo:ElephasMaximus,
+                                                        sosa:hasFeatureOfInterest          foo:ElephasMaximus;
                                                         sosa:observedProperty              foo:ID , 
                                                                                            foo:Count ,
                                                                                            foo:Cov ,
@@ -1517,26 +1517,26 @@ Bikang1
 
 ###  https://w3id.org/def/foo#Guli
 <https://w3id.org/def/foo#Guli> rdf:type            owl:NamedIndividual ,
-                                                    sosa:Sensor ;
-                                                    sosa:hasFeatureOfInterest          foo:ElephasMaximus,
-                                                    sosa:observedProperty              foo:ID ,
-,                                                                                      foo:Count ,
-                                                                                       foo:Cov ,
-                                                                                       foo:Direction ,
-                                                                                       foo:Distance ,
-                                                                                       foo:ExtTemp ,
-                                                                                       foo:GMTDate ,
-                                                                                       foo:GMTTime ,
-                                                                                       foo:HDOP ,
-                                                                                       foo:Speed ,
-                                                                                       foo:Temperature ;
-                                           rdfs:comment "A male Asian elephant called Guli, here, the GPS collar (sensor) is named after him." .
+                                sosa:Sensor ;
+                                sosa:hasFeatureOfInterest          foo:ElephasMaximus;
+                                sosa:observedProperty              foo:ID ,
+                                                                   foo:Count ,
+                                                                   foo:Cov ,
+                                                                   foo:Direction ,
+                                                                   foo:Distance ,
+                                                                   foo:ExtTemp ,
+                                                                   foo:GMTDate ,
+                                                                   foo:GMTTime ,
+                                                                   foo:HDOP ,
+                                                                   foo:Speed ,
+                                                                   foo:Temperature ;
+                       rdfs:comment "A male Asian elephant called Guli, here, the GPS collar (sensor) is named after him." .
 
 
 ###  https://w3id.org/def/foo#Ita
 <https://w3id.org/def/foo#Ita> rdf:type           owl:NamedIndividual ,
                                                    sosa:Sensor ;
-                                                   sosa:hasFeatureOfInterest          foo:ElephasMaximus,
+                                                   sosa:hasFeatureOfInterest          foo:ElephasMaximus;
                                                    sosa:observedProperty              foo:ID ,
                                                                                       foo:Count ,
                                                                                       foo:Cov ,
@@ -1554,7 +1554,7 @@ Bikang1
 ###  https://w3id.org/def/foo#Jasmin
 <https://w3id.org/def/foo#Jasmin> rdf:type         owl:NamedIndividual ,
                                                     sosa:Sensor ;
-                                                    sosa:hasFeatureOfInterest          foo:ElephasMaximus,
+                                                    sosa:hasFeatureOfInterest          foo:ElephasMaximus;
                                                     sosa:observedProperty              foo:ID ,
                                                                                        foo:Count ,
                                                                                        foo:Cov ,
@@ -1571,7 +1571,7 @@ Bikang1
 ###  https://w3id.org/def/foo#Jasper
 <https://w3id.org/def/foo#Jasper> rdf:type owl:NamedIndividual ,
                                             sosa:Sensor ;
-                                            sosa:hasFeatureOfInterest    foo:ElephasMaximus,
+                                            sosa:hasFeatureOfInterest    foo:ElephasMaximus;
                                             sosa:observedProperty        foo:ID ,
                                                                          foo:Count ,
                                                                          foo:Cov ,
@@ -1589,7 +1589,7 @@ Bikang1
 ###  https://w3id.org/def/foo#Kasih
 <https://w3id.org/def/foo#Kasih> rdf:type             owl:NamedIndividual ,
                                                       sosa:Sensor ;
-                                                      sosa:hasFeatureOfInterest     foo:ElephasMaximus,
+                                                      sosa:hasFeatureOfInterest     foo:ElephasMaximus;
                                                       sosa:observedProperty         foo:ID ,
                                                                                     foo:Count ,
                                                                                     foo:Cov ,
@@ -1607,7 +1607,7 @@ Bikang1
 ###  https://w3id.org/def/foo#Kuma
 <https://w3id.org/def/foo#Kuma> rdf:type             owl:NamedIndividual ,
                                                       sosa:Sensor ;
-                                                      sosa:hasFeatureOfInterest      foo:ElephasMaximus,
+                                                      sosa:hasFeatureOfInterest      foo:ElephasMaximus;
                                                       sosa:observedProperty          foo:ID ,
                                                                                      foo:Count ,
                                                                                      foo:Cov ,
@@ -1625,7 +1625,7 @@ Bikang1
 ###  https://w3id.org/def/foo#Liun
 <https://w3id.org/def/foo#Liun> rdf:type owl:NamedIndividual ,
                                             sosa:Sensor ;
-                                            sosa:hasFeatureOfInterest      foo:ElephasMaximus,
+                                            sosa:hasFeatureOfInterest      foo:ElephasMaximus;
                                             sosa:observedProperty          foo:ID ,
                                                                            foo:DateTime ,
                                                                            foo:Direction ,
@@ -1638,7 +1638,7 @@ Bikang1
 ###  https://w3id.org/def/foo#Maliau
 <https://w3id.org/def/foo#Maliau> rdf:type owl:NamedIndividual ,
                                             sosa:Sensor ;
-                                            sosa:hasFeatureOfInterest      foo:ElephasMaximus,
+                                            sosa:hasFeatureOfInterest      foo:ElephasMaximus;
                                             sosa:observedProperty          foo:ID ,
                                                                            foo:Count ,
                                                                            foo:Cov ,
@@ -1656,7 +1656,7 @@ Bikang1
 ###  https://w3id.org/def/foo#Merotai
 <https://w3id.org/def/foo#Merotai> rdf:type owl:NamedIndividual ,
                                                        sosa:Sensor ;
-                                     sosa:hasFeatureOfInterest      foo:ElephasMaximus,
+                                     sosa:hasFeatureOfInterest      foo:ElephasMaximus;
                                       sosa:observedProperty         foo:ID ,
                                                                     foo:Count ,
                                                                     foo:Cov ,
@@ -1674,9 +1674,9 @@ Bikang1
 ###  https://w3id.org/def/foo#Puteri
 <https://w3id.org/def/foo#Puteri> rdf:type owl:NamedIndividual ,
                                                       sosa:Sensor ;        
-                                                      sosa:hasFeatureOfInterest       foo:ElephasMaximus,
+                                                      sosa:hasFeatureOfInterest       foo:ElephasMaximus;
                                                       sosa:observedProperty           foo:ID ,
-                                                `                                     foo:Count ,
+                                                                                      foo:Count ,
                                                                                       foo:Cov ,
                                                                                       foo:Direction ,
                                                                                       foo:Distance ,
@@ -1692,7 +1692,7 @@ Bikang1
 ###  https://w3id.org/def/foo#elephant#Putut
 <https://w3id.org/def/foo#elephant#Putut> rdf:type owl:NamedIndividual ,
                                                       sosa:Sensor ;        
-                                                      sosa:hasFeatureOfInterest       foo:ElephasMaximus,
+                                                      sosa:hasFeatureOfInterest       foo:ElephasMaximus;
                                                       sosa:observedProperty           foo:ID ,
                                                                                       foo:Count ,
                                                                                       foo:Cov ,
@@ -1709,7 +1709,7 @@ Bikang1
 ###  https://w3id.org/def/foo#Sandi
 <https://w3id.org/def/foo#Sandi> rdf:type owl:NamedIndividual ,
                                                       sosa:Sensor ;        
-                                                      sosa:hasFeatureOfInterest     foo:ElephasMaximus,
+                                                      sosa:hasFeatureOfInterest     foo:ElephasMaximus;
                                                       sosa:observedProperty         foo:ID ,                                     
                                                                                     foo:Count ,
                                                                                     foo:Cov ,
@@ -1727,9 +1727,9 @@ Bikang1
 ###  https://w3id.org/def/foo#Sejati
 <https://w3id.org/def/foo#Sejati> rdf:type owl:NamedIndividual ,
                                                     sosa:Sensor ;        
-                                                    sosa:hasFeatureOfInterest      foo:ElephasMaximus,
+                                                    sosa:hasFeatureOfInterest      foo:ElephasMaximus;
                                                     sosa:observedProperty          foo:ID ,    
-                                                                                  foo:Count ,
+                                                                                   foo:Count ,
                                                                                    foo:Cov ,
                                                                                    foo:Direction ,
                                                                                    foo:Distance ,
@@ -1744,7 +1744,7 @@ Bikang1
 ###  https://w3id.org/def/foo#Seri
 <https://w3id.org/def/foo#Seri> rdf:type owl:NamedIndividual ,
                                                     sosa:Sensor ;        
-                                                    sosa:hasFeatureOfInterest      foo:ElephasMaximus,
+                                                    sosa:hasFeatureOfInterest      foo:ElephasMaximus;
                                                     sosa:observedProperty          foo:ID ,    
                                                                                    foo:Count ,
                                                                                    foo:Cov ,
@@ -1762,15 +1762,16 @@ Bikang1
 ###  https://w3id.org/def/foo#Tulid
 <https://w3id.org/def/foo#Tulid> rdf:type owl:NamedIndividual ,
                                                      sosa:Sensor ;
-                                            sosa:observedProperty foo:Count ,
-                                                                  foo:Cov ,
-                                                                  foo:Direction ,
-                                                                  foo:Distance ,
-                                                                  foo:ExtTemp ,
-                                                                  foo:GMTDate ,
-                                                                  foo:GMTTime ,
-                                                                  foo:Speed ,
-                                                                  foo:Temperature ;
+                                                     sosa:hasFeatureOfInterest    foo:ElephasMaximus;
+                                                     sosa:observedProperty        foo:Count ,
+                                                                                  foo:Cov ,
+                                                                                  foo:Direction ,
+                                                                                  foo:Distance ,
+                                                                                  foo:ExtTemp ,
+                                                                                  foo:GMTDate ,
+                                                                                  foo:GMTTime ,
+                                                                                  foo:Speed ,
+                                                                                  foo:Temperature ;
                                             rdfs:comment "A female Asian elephant called Tulid, here, the GPS collar (sensor) is named after her." .
 
 
@@ -1778,36 +1779,36 @@ Bikang1
 <https://w3id.org/def/foo#elephant#Tunglap> rdf:type owl:NamedIndividual ,
                                                        sosa:Sensor ;
 
-                                                    sosa:hasFeatureOfInterest      foo:ElephasMaximus,
-                                                    sosa:observedProperty          foo:ID ,  
-                                                                    foo:Count ,
-                                                                    foo:Cov ,
-                                                                    foo:Direction ,
-                                                                    foo:Distance ,
-                                                                    foo:ExtTemp ,
-                                                                    foo:GMTDate ,
-                                                                    foo:GMTTime ,
-                                                                    foo:HDOP ,
-                                                                    foo:Speed ,
-                                                                    foo:Temperature ;
+                                                    sosa:hasFeatureOfInterest       foo:ElephasMaximus;
+                                                    sosa:observedProperty           foo:ID ,  
+                                                                                    foo:Count ,
+                                                                                    foo:Cov ,
+                                                                                    foo:Direction ,
+                                                                                    foo:Distance ,
+                                                                                    foo:ExtTemp ,
+                                                                                    foo:GMTDate ,
+                                                                                    foo:GMTTime ,
+                                                                                    foo:HDOP ,
+                                                                                    foo:Speed ,
+                                                                                    foo:Temperature ;
                                               rdfs:comment "A female Asian elephant called Tunglap, here, the GPS collar (sensor) is named after her." .
 
 
 ###  https://w3id.org/def/foo#Umas2
 <https://w3id.org/def/foo#Umas2> rdf:type owl:NamedIndividual ,
                                                      sosa:Sensor ;     
-                                                    sosa:hasFeatureOfInterest      foo:ElephasMaximus,
-                                                    sosa:observedProperty          foo:ID ,  
-                                                                  foo:Count ,
-                                                                  foo:Cov ,
-                                                                  foo:Direction ,
-                                                                  foo:Distance ,
-                                                                  foo:ExtTemp ,
-                                                                  foo:GMTDate ,
-                                                                  foo:GMTTime ,
-                                                                  foo:HDOP ,
-                                                                  foo:Speed ,
-                                                                  foo:Temperature ;
+                                                    sosa:hasFeatureOfInterest     foo:ElephasMaximus;
+                                                    sosa:observedProperty         foo:ID ,  
+                                                                                  foo:Count ,
+                                                                                  foo:Cov ,
+                                                                                  foo:Direction ,
+                                                                                  foo:Distance ,
+                                                                                  foo:ExtTemp ,
+                                                                                  foo:GMTDate ,
+                                                                                  foo:GMTTime ,
+                                                                                  foo:HDOP ,
+                                                                                  foo:Speed ,
+                                                                                  foo:Temperature ;
                                             rdfs:comment "A male Asian elephant called Umas2, here, the GPS collar (sensor) is named after him." .
 
 
