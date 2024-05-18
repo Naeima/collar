@@ -58,7 +58,7 @@ with open(csv_file, 'r') as file:
         graph.add((subject_uri, namespace.GMTDate, Literal(column4)))
         graph.add((subject_uri, namespace.GMTTime, Literal(column5)))
         graph.add((subject_uri, namespace2.lat, Literal(column6)))
-        graph.add((subject_uri, namespace2.long Literal(column7)))
+        graph.add((subject_uri, namespace2.long, Literal(column7)))
         graph.add((subject_uri, namespace2.Altitude, Literal(column8)))
         graph.add((subject_uri, namespace.Temperature, Literal(column9)))
         graph.add((subject_uri, namespace.Speed, Literal(column10)))
